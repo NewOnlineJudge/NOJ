@@ -10,7 +10,7 @@
 [![Nacos](https://img.shields.io/badge/Nacos-1.4.2-%23267DF7)](https://github.com/alibaba/nacos)
 [![Vue](https://img.shields.io/badge/Vue-2.6.11-success)](https://cn.vuejs.org/)
 
-[简体中文](. /README.md) |[English
+[简体中文](./README.md) | English
   
 ## Online Diary
 
