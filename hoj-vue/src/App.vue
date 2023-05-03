@@ -38,6 +38,9 @@
               <p>
                 <a @click="goRoute('/problem')">{{ $t('m.System_Info') }}</a>
               </p>
+              <p>
+                <a @click="goRoute('/developer')">{{ $t('m.System_abc') }}</a>
+              </p>
             </el-col>
             <el-col class="hr-none">
               <el-divider></el-divider>
@@ -55,6 +58,7 @@
                   $t('m.Open_Source')
                 }}</a>
               </p>
+              <p class="mb-1"><a @click="goRoute('/API')">API</a></p>
             </el-col>
             <el-col class="hr-none">
               <el-divider></el-divider>
@@ -69,6 +73,10 @@
                   class="fa fa-info-circle"
                   aria-hidden="true"
                 ></i><a @click="goRoute('/introduction')"> {{ $t('m.NavBar_About') }}</a>
+              </p>
+              <p>
+                <i class="el-icon-document"></i>
+                <a @click="goRoute('/developer')"> {{ $t('m.Help') }}</a>
               </p>
             </el-col>
           </el-row>
