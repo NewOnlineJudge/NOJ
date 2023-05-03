@@ -574,7 +574,7 @@ export const m = {
 
   // /components/oj/comment/Comment.vue
   Announcement_of_contest_Q_and_A_area: '比赛评论区公告',
-  Announcement_of_contest_Q_and_A_area_tips1: '请不要提问与比赛无关的问题，禁止灌水！',
+  Announcement_of_contest_Q_and_A_area_tips1: '请不要提问与比赛无关的问题，禁止灌水，禁止发题解！违反比赛规则者一律封禁并公示一个月！',
   Announcement_of_contest_Q_and_A_area_tips2: '比赛过程中，仅自己与比赛管理员的评论可见！',
   Announcement_of_contest_Q_and_A_area_tips3: '比赛管理员评论不可回复，比赛结束评论恢复正常！',
   Come_and_write_down_your_comments: '快来写下你的评论吧',
