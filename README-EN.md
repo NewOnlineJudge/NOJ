@@ -1,6 +1,6 @@
 # New Online Judge (NOJ)
 
-![logo](. /logo.png)
+![logo](./logo.png)
 
 [![Java](https://img.shields.io/badge/Java-1.8-informational)](http://openjdk.java.net/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.2.6.RELEASE-success)](https://spring.io/projects/spring-boot)
