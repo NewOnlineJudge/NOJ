@@ -197,10 +197,11 @@ export const m = {
   Service: 'Service',
   Judging_Queue: 'Judging Queue',
   System_Info: 'Problems',
+  System_abc： 'System info',
   Development: 'Development',
-  Open_Source: 'Black.X',
+  Open_Source: 'Open source',
   Support: 'Support',
-  Help: 'Help',
+  Help: 'Brief introduction',
   Group: '',
 
   // /views/oj/Home.vue
