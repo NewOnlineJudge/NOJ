@@ -1,14 +1,14 @@
 # New Online Judge (NOJ)
 
-! [logo](. /logo.png)
+![logo](. /logo.png)
 
-[! [Java](https://img.shields.io/badge/Java-1.8-informational)](http://openjdk.java.net/)
-[! [Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.2.6.RELEASE-success)](https://spring.io/projects/spring-boot)
-[! [SpringCloud Alibaba](https://img.shields.io/badge/Spring%20Cloud%20Alibaba-2.2.1.RELEASE-success)](https://spring.io/projects/) spring-cloud-alibaba)
-[! [MySQL](https://img.shields.io/badge/MySQL-8.0.19-blue)](https://www.mysql.com/)
-[! [Redis](https://img.shields.io/badge/Redis-5.0.9-red)](https://redis.io/)
-[! [Nacos](https://img.shields.io/badge/Nacos-1.4.2-%23267DF7)](https://github.com/alibaba/nacos)
-[! [Vue](https://img.shields.io/badge/Vue-2.6.11-success)](https://cn.vuejs.org/)
+[![Java](https://img.shields.io/badge/Java-1.8-informational)](http://openjdk.java.net/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.2.6.RELEASE-success)](https://spring.io/projects/spring-boot)
+[![SpringCloud Alibaba](https://img.shields.io/badge/Spring%20Cloud%20Alibaba-2.2.1.RELEASE-success)](https://spring.io/projects/) spring-cloud-alibaba)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0.19-blue)](https://www.mysql.com/)
+[![Redis](https://img.shields.io/badge/Redis-5.0.9-red)](https://redis.io/)
+[![Nacos](https://img.shields.io/badge/Nacos-1.4.2-%23267DF7)](https://github.com/alibaba/nacos)
+[![Vue](https://img.shields.io/badge/Vue-2.6.11-success)](https://cn.vuejs.org/)
 
 [简体中文](. /README.md) |[English
   
