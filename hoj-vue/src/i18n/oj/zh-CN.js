@@ -197,7 +197,7 @@ export const m = {
   Service: '服务',
   Judging_Queue: '评测队列',
   System_Info: '题库',
-  System_abc： '系统信息',
+  System_abc: '系统信息',
   Development: '开发',
   Open_Source: '开源',
   Support: '支持',
