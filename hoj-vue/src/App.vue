@@ -36,7 +36,7 @@
                 <a @click="goRoute('/status')">{{ $t('m.Judging_Queue') }}</a>
               </p>
               <p>
-                <a @click="goRoute('/developer')">{{ $t('m.System_Info') }}</a>
+                <a @click="goRoute('/problem')">{{ $t('m.System_Info') }}</a>
               </p>
             </el-col>
             <el-col class="hr-none">
@@ -49,13 +49,12 @@
               <h1>{{ $t('m.Development') }}</h1>
               <p class="mb-1">
                 <a
-                  href="https://gitee.com/himitzh0730/hoj"
+                  href="/developer"
                   target="_blank"
                 >{{
                   $t('m.Open_Source')
                 }}</a>
               </p>
-              <p class="mb-1"><a @click="goRoute('/#')">API</a></p>
             </el-col>
             <el-col class="hr-none">
               <el-divider></el-divider>
@@ -70,13 +69,6 @@
                   class="fa fa-info-circle"
                   aria-hidden="true"
                 ></i><a @click="goRoute('/introduction')"> {{ $t('m.NavBar_About') }}</a>
-              </p>
-              <p>
-                <i class="el-icon-document"></i>
-                <a
-                  href="https://docs.hdoi.cn"
-                  target="_blank"
-                > {{ $t('m.Help') }}</a>
               </p>
             </el-col>
           </el-row>
