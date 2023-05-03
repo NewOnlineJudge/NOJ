@@ -4,7 +4,7 @@
       <paper-card type="server">
         <h1 class="text-darken">NOJ</h1>
         <h1>
-          <a href="" target="_blank"
+          <a href="https://github.com/NewOnlineJudge/NOJ" target="_blank"
             >New Online Judge</a
           >
         </h1>
