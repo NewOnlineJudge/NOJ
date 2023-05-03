@@ -58,12 +58,13 @@ export const m = {
   Welcome_Back: 'Welcome back~',
 
   // /components/oj/common/Register.vue 注册弹窗
-  Register_Username: 'Please Enter Username',
+  Register_Username: 'Please Enter Username in Old NOJ',
+  Rename_Test: 'Please change your motto from the original NOJ to ',
   Register_Password: 'Please Enter Password',
   Register_Password_Again: 'Please Enter Password Again',
   Register_Email: 'Please Enter Email',
   Register_Email_Captcha: 'Please enter the captcha from the email',
-  Register_Btn: 'Register',
+  Register_Btn: 'Check',
   Register_Already_Registed: 'Already registed? Login now!',
   The_username_already_exists: 'The username already exists.',
   The_email_already_exists: 'The email already exists.',
@@ -76,6 +77,7 @@ export const m = {
   The_system_is_processing: 'Please Waiting... The system is processing...',
   Register_Send_Email_Msg: 'Verification code has been sent to the designated mailbox! If you haven\'t received the email for a long time, please check whether your email is accurate!',
   Thanks_for_registering: 'Thanks for your registering, you can login now.',
+  Errorms: 'User motto detection error!',
 
   // /components/oj/common/ResetPassword.vue 重置密码弹窗
   // /views/oj/user/SetNeWPassword.vue 设置新密码页
@@ -194,12 +196,12 @@ export const m = {
   // App.vue 底部文案
   Service: 'Service',
   Judging_Queue: 'Judging Queue',
-  System_Info: 'System Info',
+  System_Info: 'Problems',
   Development: 'Development',
-  Open_Source: 'Open Source',
+  Open_Source: 'Black.X',
   Support: 'Support',
   Help: 'Help',
-  Group: 'Group',
+  Group: '',
 
   // /views/oj/Home.vue
   Welcome_to: 'Welcome to ',
@@ -515,18 +517,17 @@ export const m = {
   Compile_Tips4:"`itoa` is not an ANSI standard function (not available in standard `C/C++`)",
 
   // /views/oj/about/Developer.vue
-  Leader_BackEnd_FrontEnd_Engineer: 'Leader & BackEnd | FrontEnd Engineer',
-  Group_Function_Development_Contributor: 'Group Function Development Contributor',
-  Distributed: 'Distributed',
-  Distributed_Desc: 'It is divided into frontend and backend separation, and supports the micro service cluster',
+  Leader_BackEnd_FrontEnd_Engineer: 'Webmasters & Front-End Developers',
+  Distributed: 'Secure',
+  Distributed_Desc: 'The judgment sandbox uses cgroup isolation and permission control perfect',
   Customization: 'Customization',
-  Customization_Desc: 'The website configuration is highly integrated and supports customized modification',
-  Security: 'Security',
-  Security_Desc: 'The Sandbox is isolated by CGroup, and the website authority control is perfect',
+  Customization_Desc: 'Highly integrated website configuration and perfect management functions',
+  Security: 'Open',
+  Security_Desc: 'Any topic may be discussed except illegal information',
   Diversity: 'Diversity',
-  Diversity_Desc: 'Support Codefoces, HDU, POJ, GYM, AtCoder, SPOJ remote judge',
-  Available: 'Available',
-  Faulty: 'Faulty',
+  Diversity_Desc: 'Support for remote judgment of Codefoces, HDU, POJ, GYM, AtCoder, SPOJ',
+  Available: 'effective',
+  faulty: 'imperfect',
 
   // /components/oj/common/Announcements.vue
   Contest_Announcement: 'Contest Announcement',
