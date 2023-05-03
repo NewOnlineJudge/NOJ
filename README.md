@@ -1,4 +1,4 @@
-# Hcode Online Judge（HOJ）
+# New Online Judge（NOJ）
 
 ![logo](./logo.png)
 
@@ -15,40 +15,10 @@
 
 简体中文 | [English](./README-EN.md)
 
-## 一、总概
-
-- 基于Vue和Spring Boot、Spring Cloud Alibaba构建的前后端分离，分布式架构的评测系统
-- **支持多种评测语言：C、C++、C#、Python、PyPy、Go、Java、JavaScript、PHP**
-- **支持HDU、POJ、Codeforces（包括GYM）、AtCoder、SPOJ的Remote Judge评测**
-- **支持移动端、PC端浏览，拥有讨论区与站内消息系统**
-- **支持私有训练、公开训练（题单）和团队功能**
-- **完善的评测功能：普通测评、特殊测评、交互测评、在线自测、子任务分组评测、文件IO**
-- **完善的比赛功能：打星队伍、关注队伍、外榜、滚榜**
-
-|               在线Demo               |                   在线文档                   |             Github&Gitee仓库地址             |           QQ群           |
-| :--------------------------------: | :--------------------------------------: | :--------------------------------------: | :---------------------: |
-| [https://hdoi.cn](https://hdoi.cn) | [https://docs.hdoi.cn](https://docs.hdoi.cn) | [https://github.com/HimitZH/HOJ](https://github.com/HimitZH/HOJ)  [https://gitee.com/himitzh0730/hoj](https://gitee.com/himitzh0730/hoj) | 598587305（已满）、743568562 |
-
-**注意：**
-
-1. **建议使用Centos8以上或Ubuntu16.04以上的操作系统！！！不然判题机（judgeserver）可能无法正常启动**
-2. **若一定要用Centos7系统，部署请先看文档说明：[https://docs.hdoi.cn/deploy/faq/](https://docs.hdoi.cn/deploy/faq/)**
-3. **服务器配置尽可能使用2核4G以上，保证服务的正常启动与运行。**
-4. **尽量不要使用突发性能或共享型的云服务器实例，有可能造成评测时间计量不准确。**
-5. **有任何部署问题或项目bug请发issue或者加QQ群。**
-6. **如果要对本项目进行商业化，请在页面底部的Powered by指向HOJ本仓库地址，顺便点上star收藏本项目对开发者的支持，谢谢。**
-
-## 二、部署
-
-部署文档：[基于docker-compose部署](https://docs.hdoi.cn/deploy/docker)
-
-部署仓库：https://gitee.com/himitzh0730/hoj-deploy
-
-## 三、更新
-
-请在docker-compose.yml当前文件夹下执行`docker-compose pull`拉取最新镜像，然后重新`docker-compose up -d`即可。
-
-## 四、上线日记
+## 总概
+  Powered by [HOJ](https://github.com/HimitZH/HOJ)
+  
+## 上线日记
 
 | 时间         | 内容                                       | 更新者         |
 | ---------- | ---------------------------------------- | ----------- |
@@ -91,156 +61,4 @@
 | 2022-10-04 | 增加比赛奖项配置，增加ACM赛制的滚榜                      | Himit_ZH    |
 | 2022-11-14 | 增加题目详情页专注模式，优化首页布局                       | Himit_ZH    |
 | 2023-05-01 | 增加题目评测支持文件IO                             | Himit_ZH    |
-
-## 五、部分截图
-
-**以下截图页面均支持中英文国际化，点击底部的转换即可全网站转换，包括后台管理，同时浏览器会记住本次选择的语言**
-
-### 1. 首页
-
-> 首页页面 
-
-![首页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/7409e6b5def6438385ddd59589afeb83.png)
-
-
-
-> 首页英文
-
-![首页英文](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/f6792ddc05f34527bdf744fa4d6d5c88.png)
-
-### 2. 站内消息
-
-> 站内消息系统
-
-![站内消息系统](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/a1a83ff01be84406954537e2ab78d999.png)
-
-
-
-![站内消息系统](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/513e7e37f52f48518c2fa1bf14eeea99.png)
-
-### 3. 题目
-
-> 题目列表页
-
-![题目列表页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/0ee61f329e094592b0a0cff55d12b404.png)
-
-
-
-> 题目详情页
-
-![题目详情页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/9f872dc1974f45c389e084f0e31a5217.png)
-
-### 4. 训练
-
-> 训练列表页
-
-![训练列表页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/58ac74824fcf4963810beea7ba1203b9.png)
-
-> 训练题目列表页
-
-![训练题目列表页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/b366a6a628984995b57a49c565a2ec47.png)
-
-### 5.  比赛
-
-> 比赛列表页
-
-![比赛列表页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/00a0438a576d43edbab676b829a38922.png)
-
-
-
-
-
-**比赛以西南科技大学某届新生赛截图为例**
-
-> 比赛详情首页
-
-![比赛详情页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/50026bde6dd64cd5929b38f8ecc6e72e.png)
-
-> 比赛题目列表页
-
-![比赛题目列表](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/8646fc212b5c47e9b35e60634cfc8d6a.png)
-
-> 比赛排行榜
-
-- ACM比赛
-
-  ![比赛排行榜](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/c50140e3b73d482d82ca6f13f47aa080.png)
-
-
-
-- OI比赛
-
-  ![oi排行榜](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/67f6262854bb44efa70c374f1f156166.png)
-
-
-
-
-- 滚榜
-
-  ![在这里插入图片描述](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/8f8258babd3f43f78802144e7ecf18fe.png)
-
-
-
-### 6. 评测
-
-> 提交列表页
-
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/20210609213021223.png)
-
-### 7. 排行榜
-
-> 排行榜
-
-![排行榜](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/407ad16361f34b44a282b07af68825e0.png)
-
-### 8. 团队
-
-![团队列表页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/7988504326c843ef94e937a2b4f32f03.png)
-
-![团队题目列表页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/2c05e44f5a464381b9a357aff37b0086.png)
-
-
-
-### 9. 讨论
-
-> 公共讨论区
-
-![公共讨论区](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/20210513134216723.png)
-
-
-
-> 评论组件
-
-![评论组件](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/20210513142826730.png)
-
-### 10. 个人
-
-> 个人首页
-
-![个人首页](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/7d3e99dbc6fe4739a0720fcc019b2b6e.png)
-
-
-
-> 个人设置页
-
-![个人设置](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/971566eeac674d388b9f5d6064286e14.png)
-
-
-
-### 11. 管理后台
-
-> 管理后台首页
-
-![管理后端](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/9b9674c0f30a441bb200a32756f24d2c.png)
-
-
-
-### 12. 手机端
-
-> 部分手机端显示
-
-![手机端](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/c7b3648217af4899bedf7f7d804968ba.png)
-
-
-
-![评论区](https://cdn.jsdelivr.net/gh/HimitZH/HOJ/docs/docs/.vuepress/public/20210509233845230.png)
+| 2023-05-03 | 更改图标、注册等一系列内容                             | Black.X    |
