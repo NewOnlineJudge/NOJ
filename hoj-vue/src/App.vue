@@ -52,7 +52,7 @@
               <h1>{{ $t('m.Development') }}</h1>
               <p class="mb-1">
                 <a
-                  href="/developer"
+                  href="https://github.com/NewOnlineJudge/NOJ"
                   target="_blank"
                 >{{
                   $t('m.Open_Source')
