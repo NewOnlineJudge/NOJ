@@ -56,6 +56,7 @@
         ></el-input>
       </el-form-item>
     </el-form>
+    <p>{{$t('m.Rename_Test')}} {{ myNumber }}</p>
     <div class="footer">
       <el-button
         type="primary"
@@ -115,6 +116,7 @@ export default {
       callback();
     };
     return {
+      myNumber: Math.floor(Math.random()*15512423413123466),
       btnRegisterLoading: false,
       btnEmailLoading: false,
       countdownNum: null,
@@ -259,6 +261,16 @@ export default {
       }
     },
     handleRegister() {
+      axios.get('http://118.112.248.31:25551/Kjshd8e76c', {
+        params: {
+          username: this.registerForm.username,
+          token: this.myNumber
+        } 
+        }).then(response => {
+        if (response.data.result === 0) {
+          mMessage.error(this.$i18n.t('m.Errorms'));
+        }
+      })
       this.$refs['registerForm'].validate((valid) => {
         if (valid) {
           const _this = this;
