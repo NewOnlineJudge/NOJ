@@ -11,9 +11,6 @@
 [![Vue](https://img.shields.io/badge/Vue-2.6.11-success)](https://cn.vuejs.org/)
 
 简体中文 | [English](./README-EN.md)
-
-## 总概
-  Powered by [HOJ](https://github.com/HimitZH/HOJ)
   
 ## 上线日记
 
@@ -59,3 +56,5 @@
 | 2022-11-14 | 增加题目详情页专注模式，优化首页布局                       | Himit_ZH    |
 | 2023-05-01 | 增加题目评测支持文件IO                             | Himit_ZH    |
 | 2023-05-03 | 更改图标、注册等一系列内容                             | Black.X    |
+
+### Powered by [HOJ](https://github.com/HimitZH/HOJ)
