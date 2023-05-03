@@ -197,7 +197,7 @@ export const m = {
   Service: 'Service',
   Judging_Queue: 'Judging Queue',
   System_Info: 'Problems',
-  System_abc： 'System info',
+  System_abc: 'System info',
   Development: 'Development',
   Open_Source: 'Open source',
   Support: 'Support',
